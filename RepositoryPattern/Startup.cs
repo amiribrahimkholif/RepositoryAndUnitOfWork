@@ -1,7 +1,12 @@
+using Core.Interfaces;
+using Core.Models;
+using EntityFramwork;
+using EntityFramwork.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +33,8 @@ namespace RepositoryPattern
         {
 
             services.AddControllers();
+            services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient(typeof(IbaseRepository<>), typeof(BaseRepository<>));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RepositoryPattern", Version = "v1" });

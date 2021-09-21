@@ -1,0 +1,15 @@
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\bin\Debug\net5.0\EntityFramwork.deps.json
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\bin\Debug\net5.0\EntityFramwork.dll
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\bin\Debug\net5.0\ref\EntityFramwork.dll
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\bin\Debug\net5.0\EntityFramwork.pdb
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\bin\Debug\net5.0\Core.dll
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\bin\Debug\net5.0\Core.pdb
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.csproj.AssemblyReference.cache
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.AssemblyInfoInputs.cache
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.AssemblyInfo.cs
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.csproj.CoreCompileInputs.cache
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.csproj.CopyComplete
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.dll
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\ref\EntityFramwork.dll
+C:\Users\idsc\Source\Repos\RepositoryAndUnitOfWork\EntityFramwork\obj\Debug\net5.0\EntityFramwork.pdb
