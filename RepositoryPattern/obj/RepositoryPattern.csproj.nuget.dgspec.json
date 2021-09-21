@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idsc\\source\\repos\\RepositoryPattern\\RepositoryPattern.csproj": {}
+    "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\RepositoryPattern\\RepositoryPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idsc\\source\\repos\\RepositoryPattern\\RepositoryPattern.csproj": {
+    "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\RepositoryPattern\\RepositoryPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idsc\\source\\repos\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectUniqueName": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\RepositoryPattern\\RepositoryPattern.csproj",
         "projectName": "RepositoryPattern",
-        "projectPath": "C:\\Users\\idsc\\source\\repos\\RepositoryPattern\\RepositoryPattern.csproj",
+        "projectPath": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\RepositoryPattern\\RepositoryPattern.csproj",
         "packagesPath": "C:\\Users\\idsc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idsc\\source\\repos\\RepositoryPattern\\obj\\",
+        "outputPath": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\RepositoryPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

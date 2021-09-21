@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ib2TTcIIZuSJPAUN3LOXSbFzA3cyLtK3ib/JrQOQrZxkD5Z801A22VQMnzY7Pa/HjCBKXOrgHNRNdLVubKK3lw==",
+  "dgSpecHash": "CCPJuqqg2A6E0LQZHC6jpizjsTcHNVBxRULPMyYZFoAUDKVIYZbjAeQMLcj/OJbo4UDOhwqfOrPQwQPpQGlGWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idsc\\source\\repos\\EntityFramwork\\EntityFramwork.csproj",
+  "projectFilePath": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\EntityFramwork\\EntityFramwork.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

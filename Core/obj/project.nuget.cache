@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wAk168HEGSzfLTxcp029qqhb+wSxHsvU7H/f1UnP9ENRZHwYDx4j291IubNwz9A8NY8QmU4bC3pO/pBjRomEsQ==",
+  "dgSpecHash": "BaEkNbUSfHg8R1cOYMUxg2hRVhixjb1yRNIwtpq/WHi1cgC4hhY0wOJREmxyEXZ2EFfqeY8rNSFX3oUSEdd5Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idsc\\source\\repos\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

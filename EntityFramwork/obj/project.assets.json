@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\idsc\\source\\repos\\EntityFramwork\\EntityFramwork.csproj",
+      "projectUniqueName": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\EntityFramwork\\EntityFramwork.csproj",
       "projectName": "EntityFramwork",
-      "projectPath": "C:\\Users\\idsc\\source\\repos\\EntityFramwork\\EntityFramwork.csproj",
+      "projectPath": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\EntityFramwork\\EntityFramwork.csproj",
       "packagesPath": "C:\\Users\\idsc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\idsc\\source\\repos\\EntityFramwork\\obj\\",
+      "outputPath": "C:\\Users\\idsc\\Source\\Repos\\RepositoryAndUnitOfWork\\EntityFramwork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
