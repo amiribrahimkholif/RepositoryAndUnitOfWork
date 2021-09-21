@@ -13,24 +13,24 @@ namespace RepositoryPattern.Controllers
     [ApiController]
     public class AuthorsController : ControllerBase
     {
-        private readonly IbaseRepository<Author> _authorRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public AuthorsController(IbaseRepository<Author> authorRepository)
+        public AuthorsController(IUnitOfWork unitOfWork)
         {
-            _authorRepository = authorRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("GetById")]
         public IActionResult GetById(int id)
         {
-            return Ok(_authorRepository.GetById(id));
+            return Ok(_unitOfWork.Authors.GetById(id));
         }
 
 
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
-            return Ok(_authorRepository.GetAll());
+            return Ok(_unitOfWork.Authors.GetAll());
         }
     }
 }

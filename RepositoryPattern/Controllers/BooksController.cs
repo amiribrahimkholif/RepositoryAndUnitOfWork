@@ -13,23 +13,35 @@ namespace RepositoryPattern.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private readonly IbaseRepository<Book> _bookRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public BooksController(IbaseRepository<Book> bookRepository)
+        public BooksController(IUnitOfWork unitOfWork)
         {
-            _bookRepository = bookRepository;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet("GetById")]
-        public IActionResult GetById(int id)
+        public IActionResult GetById()
         {
-            return Ok(_bookRepository.GetById(id));
+            return Ok(_unitOfWork.Books.GetById(1));
+        }
+
+        [HttpGet("GetByIdAsync")]
+        public async Task<IActionResult> GetByIdAsync()
+        {
+            return  Ok(await _unitOfWork.Books.GetByIdAsync(1));
         }
 
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
-            return Ok(_bookRepository.GetAll());
+            return Ok(_unitOfWork.Books.GetAll());
+        }
+
+        [HttpGet("GetByName")]
+        public IActionResult GetByName()
+        {
+            return Ok(_unitOfWork.Books.Find(b =>b.Title == "Book1", new [] { "Author"}));
         }
     }
 }

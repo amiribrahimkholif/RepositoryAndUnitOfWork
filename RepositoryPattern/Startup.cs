@@ -34,7 +34,8 @@ namespace RepositoryPattern
 
             services.AddControllers();
             services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddTransient(typeof(IbaseRepository<>), typeof(BaseRepository<>));
+            //services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            services.AddTransient<IUnitOfWork,UnitOfWork>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RepositoryPattern", Version = "v1" });
